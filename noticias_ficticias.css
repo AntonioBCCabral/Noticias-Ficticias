@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #5fe4d7;
+    color: #1a1818;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.imagem-ilustrativa {
+    display: block;
+    width: 600px;
+    height: 300px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    object-fit: fill
+}
+
+#noticia1 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 300px;}
+
+#noticia2 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-left: 300px;
+}
+
+.titulo-da-materia {
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.menu-principal {
+    background: rgb(240, 190, 211);
+    color: red;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.menu-principal a:hover {
+    color: blueviolet;    
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.disco-voador, .luz-da-chapada, .onça-pintada, .bar-do-chen, .claudio, .jose-toniquinho,
+.cuete-e-ocaia, .charrete, .tomba-lobo, .homem-carcara {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border: #1c302e 2px solid;
+    width: 43%;
+    height: 250px;      
+}
+
+.luz-da-chapada {
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.bar-do-chen {
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.jose-toniquinho {
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.charrete {
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.homem-carcara {
+    display: inline-block;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.advertencia-texto {
+    font-size: 1.2em;
+    color: #c87444;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    border: #1c302e 2px solid;
+    width: 80%;
+    height: 150px;
+}
+
+    
