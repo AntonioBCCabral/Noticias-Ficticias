@@ -1,0 +1,495 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #5fe4d7;
+    color: #1a1818;
+}
+
+h1, h2, h3, h4 {
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.imagem-ilustrativa {
+    display: block;
+    width: 600px;
+    height: 300px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    object-fit: fill
+}
+
+#noticia1 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 400px;}
+
+#noticia2 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -50px;
+    margin-left: 400px;
+}
+
+#noticia3 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 400px;
+}
+
+#noticia4 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -80px;
+    margin-left: 400px;}
+
+#noticia5 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 400px;}
+
+#noticia6 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 400px;}
+
+#noticia7 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 400px;}
+
+#noticia8 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 400px;}
+
+#noticia9 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 400px;}
+
+#noticia10 img {
+    display: line-block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -60px;
+    margin-left: 400px;}
+
+.titulo-da-materia {
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.menu-principal {
+    background: rgb(240, 190, 211);
+    color: red;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.menu-principal a:hover {
+    color: blueviolet;    
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.disco-voador, .luz-da-chapada, .onça-pintada, .bar-do-chen, .claudio, .jose-toniquinho,
+.cuete-e-ocaia, .charrete, .tomba-lobo, .homem-carcara {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border: #1c302e 2px solid;
+    width: 43%;
+    height: 250px;
+    background-color: whitesmoke;
+    display: block;
+}
+
+
+.luz-da-chapada {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.bar-do-chen {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.jose-toniquinho {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.charrete {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.homem-carcara {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -312px;
+    width: 34%;
+}
+
+.advertencia-texto {
+    font-size: 1.2em;
+    color: #c87444;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    border: #1c302e 2px solid;
+    width: 90%;
+    height: 120px;
+}
+
+/* ADAPTAÇÃO PARA TELAS DE CELULAR E TABLET:*/
+
+    
+@media screen and (max-width: 768px) 
+
+
+{
+    .titulo-da-materia {
+        font-size: 0.7em;
+        margin-top: 1px;
+    }
+
+    .advertencia {
+        font-size: 0.8em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px;
+        width: 120%;
+    }
+
+    
+    .advertencia-texto {
+        font-size: 0.95em;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 85%;
+        height: 130%;
+    }
+
+    .wrapper {
+        width: 100%;
+        }
+
+    body {
+        font-family: 'Arial', sans-serif;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+
+    header {
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .imagem-ilustrativa {
+        width: 300px;
+        height: 150px;
+        padding: auto;
+        margin-bottom: 50px;
+        object-fit: fill;
+        
+    }
+
+    .advertencia {
+        font-size: 0.8em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 15px;
+        width: 100%;
+    }
+
+           
+
+    .wrapper {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .disco-voador {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;}
+    
+    .luz-da-chapada {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+}
+
+    .onça-pintada {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;}
+
+    .bar-do-chen {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;}
+    
+
+    .claudio {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+    }
+
+    .jose-toniquinho {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+    }
+
+    .cuete-e-ocaia {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+    }
+
+    .charrete {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+    }
+
+    .tomba-lobo {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+    }
+
+    .homem-carcara {
+    width: 70%;
+    height: 200px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    display: block;
+    }
+
+#noticia1 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+    
+#noticia2 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+#noticia3 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;} 
+
+#noticia4 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;} 
+
+#noticia5 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+#noticia6 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+#noticia7 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+#noticia8 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+#noticia9 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+#noticia10 img {
+    display: line-block;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 0%;
+    margin: 0 auto;
+    margin-top: -40px;
+    margin-left: 265px;}
+
+}
+
+
+    
